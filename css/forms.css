@@ -1,0 +1,99 @@
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+body {
+	font-family: Arial, Helvetica, sans-serif;
+	margin: 0;
+	padding: 0;
+	background-image: url(../img/galaxy.jpg);
+	font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ;
+	line-height: 1.4rem;
+}
+.wrapper {
+	width: 80%;
+	margin: 0 auto;
+	padding: 1em;
+	display: flex;
+	flex-flow: row nowrap;
+	background-color: #F2C335;
+}
+
+section {
+	flex-basis: 57%;
+	margin-right: 10%;
+}
+aside {
+	flex-basis: 33%;
+}
+p,[for="abtype"] {
+	margin: 1rem 0 0 0;
+}
+fieldset {
+	border: 1px solid;
+	border-radius: 10px;
+	margin-bottom:2rem;
+}
+legend {
+	font-weight: bold;
+	font-size: 1.3rem;
+	margin-top: 1.5rem ;
+	margin-bottom: 1rem;
+	display: block;
+}
+label {
+	display: block;
+}
+textarea {
+	height: 9rem;
+	padding: 1rem;
+	border-radius: 8px;
+	border:none;
+}
+select {
+	font-size: 1rem;
+}
+button {
+	margin: 1.4rem 0;
+	font-size: 1rem;
+	background-color: #313B2F;
+	color: #FF0005;
+	font-weight: bold;
+	border-radius: 10px;
+	border: none;
+	padding: .4rem 1rem;
+}
+button:hover {
+	background-color: white;
+	color:blue;
+}
+input:not([type="radio"]):not([type="checkbox"]),select,textarea {
+	display: block;
+	margin:.6rem 0 .6rem 0;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 1rem;
+	padding: .11rem .3rem;
+	width: 20rem;
+	border-radius:7px ;
+	border: none;
+}
+h1,legend,h3 {
+	font-family: 'Caveat Brush', cursive;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
