@@ -82,6 +82,10 @@ input:not([type="radio"]):not([type="checkbox"]),select,textarea {
 h1,legend,h3 {
 	font-family: 'Caveat Brush', cursive;
 }
+iframe {
+	 max-width: 100%;
+	 height: auto;
+}
 
 
 
